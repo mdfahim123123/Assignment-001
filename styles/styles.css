@@ -9,7 +9,8 @@
 /* header */
 .header{
     background-image: url(../Assets/Hero-bg.png);
-    width: 1440px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 /* bannar part*/
 
@@ -27,7 +28,7 @@
 
 }
 
-p{
+.first-description{
     font-size: 65px;
     font-weight: bold;
     color: #282432;
@@ -35,14 +36,48 @@ p{
 
 
 /* bannar part 2 */
-.img-01{
-    
+.second-part{
+    display: flex;
+  
+    background-color:#D6DDED;
+    border: radius 15px;
+  margin: 100px 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.second-description{
+    font: size 20px;
+   color: #666566;
 }
 
 
+/* main styles */
+main{
+max-width: 1140px;
+margin: 0 auto;
+}
 
+/* part-3 */
 
+.third-part{
+     text-align: center;
+    align-items: center;
+    background-color: #D6DDED;
+    padding: 50px 150px;
+    border-radius: 15px;
+}
+.items{
+    display: flex;
+   justify-content: space-around;
+  }
 
+.item title{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 30px;
+}
 
 
 
@@ -51,7 +86,7 @@ p{
     font-size:15px;
     background-color: #4E47FF;
     color: white;
-    padding: 15px;
+    padding: 12px 36px;
     border-radius: 8px;
     border: none;
   
@@ -60,5 +95,9 @@ p{
 }
 
 
+.pic-1{
+    border-radius: 15px;
+    width: 400px;
+}
 
 
