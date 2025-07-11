@@ -79,8 +79,54 @@ margin: 0 auto;
     font-size: 30px;
 }
 
+/*SKILLS SECTION  */
+.comment{
+    display: flex;
+  
+}
+
+.full-skills{
+    background-color:#D6DDED ;
+    padding: 15px;
+}
 
 
+.finall-skills{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.form-section{
+    display: flex;
+    gap: 100px;
+    padding: 100px;
+    justify-content: center;
+        background-color:#D6DDED ;
+}
+
+.c-1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.form{
+    display:block
+    weight:50%;
+}
+
+/* footer */
+.footer-text{
+    text-align: center;
+}
+
+    
 /* button section */
 .btn{
     font-size:15px;
